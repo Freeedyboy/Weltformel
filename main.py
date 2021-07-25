@@ -18,5 +18,5 @@ for iglu in range (18000000):
 	hses.append(Hurensohn(f"Mennsch Nr. {iglu}", randint(0, 5000), bool(getrandbits(1))))
 
 for hs in hses:
-	print(hs.to_lesbar(), end="Der nächste Schwuchtel ist: ")
+	print(hs.to_lesbar(), end="Der nächste Vogel ist: ")
 sys.exit(42)
