@@ -14,7 +14,7 @@ class Hurensohn:
 hses = [Hurensohn("Klaus", 5, True), Hurensohn("Peter", 15, False), Hurensohn("Lennart", 0, True), Hurensohn("Nolram", 5000, False)]
 
 
-for iglu in range (18000000):
+for iglu in range (7949999995):
 	hses.append(Hurensohn(f"Mennsch Nr. {iglu}", randint(0, 5000), bool(getrandbits(1))))
 
 for hs in hses:
